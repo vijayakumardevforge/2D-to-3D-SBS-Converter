@@ -8,7 +8,7 @@ A lightweight, local-first web application that uses AI depth estimation to conv
   <img src="assets/processing.png" alt="Processing & Performance" width="45%">
   <br>
   <img src="assets/completed.png" alt="Conversion Complete" width="45%">
-  <img src="assets/comparison.png" alt="2D to 3D SBS Comparison" width="45%">
+  <img src="assets/comparison.jpg" alt="2D to 3D SBS Comparison" width="45%">
 </div>
 
 

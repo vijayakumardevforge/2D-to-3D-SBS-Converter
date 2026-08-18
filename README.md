@@ -17,7 +17,7 @@ Once finished, instantly download your new stereoscopic 3D video.
 
 ### 4. 2D to 3D SBS Comparison
 The final output is perfectly split into distinct left and right eye views for VR headsets.
-![2D to 3D SBS Comparison](assets/comparison.jpg)
+![ to 3D SBS Comparison](assets/comparison.jpg)
 
 
 ## Features
@@ -52,8 +52,8 @@ Below are real-world conversion times tested on a **Lenovo IdeaPad Slim 3** (Spe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vijayakumardevforge/2D-to-3D-SBS-Converter.git
-   cd 2D-to-3D-SBS-Converter
+   git clone https://github.com/vijayakumardevforge/2D-to-3D-SBS-Converter-Lite.git
+   cd 2D-to-3D-SBS-Converter-Lite
    ```
 
 2. Set up the Python environment (optional but recommended):

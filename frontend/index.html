@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D SBS Video Converter | Meta Quest 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1><span class="gradient-text">2D</span> to <span class="gradient-text">3D</span> SBS Converter</h1>
+            <p>Transform your standard videos into immersive Side-By-Side 3D format optimized for Meta Quest 3.</p>
+        </header>
+
+        <main class="glass-panel">
+            <div id="upload-section" class="active">
+                <div class="drop-zone" id="drop-zone">
+                    <i class="fa-solid fa-cloud-arrow-up icon-large"></i>
+                    <h2>Drag & Drop your video here</h2>
+                    <p>or</p>
+                    <input type="file" id="file-input" accept="video/mp4,video/x-m4v,video/*" hidden>
+                    <button class="btn primary-btn" id="browse-btn">Browse Files</button>
+                    <p class="file-hint">Supported formats: MP4, MOV, MKV</p>
+                </div>
+            </div>
+
+            <div id="processing-section" class="hidden">
+                <div class="loader">
+                    <div class="spinner"></div>
+                </div>
+                <h2>Processing your video...</h2>
+                <p>This may take a while depending on the video length.</p>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <p id="status-text" class="status-text">Uploading...</p>
+                <button class="btn secondary-btn" id="cancel-btn" style="margin-top: 1rem; border-color: var(--error); color: var(--error);">
+                    <i class="fa-solid fa-ban"></i> Cancel Conversion
+                </button>
+            </div>
+
+            <div id="result-section" class="hidden">
+                <i class="fa-solid fa-circle-check icon-large success-color"></i>
+                <h2>Conversion Complete!</h2>
+                <p>Your 3D SBS video is ready for download.</p>
+                <div class="result-actions">
+                    <a id="download-link" href="#" class="btn primary-btn download-btn" download>
+                        <i class="fa-solid fa-download"></i> Download 3D Video
+                    </a>
+                    <button class="btn secondary-btn" id="convert-another-btn">Convert Another</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Cloud processed. No local hardware required. Enjoy in your VR headset.</p>
+        </footer>
+    </div>
+
+    <script src="script.js?v=2"></script>
+</body>
+</html>

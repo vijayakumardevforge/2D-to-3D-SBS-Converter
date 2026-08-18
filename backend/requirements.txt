@@ -1,0 +1,8 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+Werkzeug==3.0.1
+torch
+torchvision
+transformers
+opencv-python
+numpy

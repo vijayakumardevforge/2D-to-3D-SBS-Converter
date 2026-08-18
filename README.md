@@ -2,6 +2,16 @@
 
 A lightweight, local-first web application that uses AI depth estimation to convert standard 2D flat videos into immersive stereoscopic 3D Side-by-Side (SBS) videos. The resulting videos are perfect for viewing on VR headsets, 3D TVs, or standard devices using cross-eyed/parallel viewing techniques.
 
+## Screenshots
+<div align="center">
+  <img src="assets/upload.png" alt="Upload Interface" width="45%">
+  <img src="assets/processing.png" alt="Processing & Performance" width="45%">
+  <br>
+  <img src="assets/completed.png" alt="Conversion Complete" width="45%">
+  <img src="assets/comparison.png" alt="2D to 3D SBS Comparison" width="45%">
+</div>
+
+
 ## Features
 - **AI Depth Estimation**: Uses the lightweight `Intel/dpt-swinv2-tiny-256` model to intelligently estimate depth from flat 2D frames.
 - **CPU Optimized**: Carefully designed to fall back to CPU processing, making it perfectly viable to run on standard laptops (like AMD Ryzen or Intel Core processors) without needing a heavy dedicated NVIDIA GPU.
@@ -9,9 +19,26 @@ A lightweight, local-first web application that uses AI depth estimation to conv
 - **Clean UI**: Simple web interface with drag-and-drop support, real-time conversion progress, and instant download capabilities.
 - **Local Privacy**: Runs 100% on your own hardware. Your personal videos are never sent to external cloud servers.
 
-## Prerequisites
-1. **Python 3.8+**
-2. **FFmpeg**: Must be installed and accessible via your system PATH.
+## Minimum Requirements
+To run this application locally without crashing, you will need at least the following:
+- **CPU**: Modern Multi-core CPU (Intel Core i5 8th Gen / AMD Ryzen 5 or better)
+- **GPU**: **Any** (Dedicated GPU *not* required! Integrated graphics are fully supported)
+- **RAM**: 8GB Minimum (16GB Recommended for 4K video)
+- **Storage**: At least 2GB free space
+- **Software**: 
+  1. Python 3.8+
+  2. FFmpeg (Must be accessible via system PATH)
+
+## Hardware Performance Benchmarks
+This app is designed to run efficiently on standard consumer laptops without needing an NVIDIA RTX graphics card. 
+
+Below are real-world conversion times tested on a **Lenovo IdeaPad Slim 3** (Specs: **AMD Ryzen 7 5825U, 2GB Integrated AMD Radeon Graphics, 16GB RAM**):
+
+| Video Resolution | Video Length | Processing Time |
+|------------------|--------------|-----------------|
+| **1080P (FHD)**  | 3 Minutes    | ~15 Minutes     |
+| **1440P (2K)**   | 3 Minutes    | ~35 Minutes     |
+| **2160P (4K)**   | 3 Minutes    | ~70 Minutes     |
 
 ## Installation
 

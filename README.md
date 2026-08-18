@@ -3,11 +3,28 @@
 A lightweight, local-first web application that uses AI depth estimation to convert standard 2D flat videos into immersive stereoscopic 3D Side-by-Side (SBS) videos. The resulting videos are perfect for viewing on VR headsets, 3D TVs, or standard devices using cross-eyed/parallel viewing techniques.
 
 ## Screenshots
-| Upload Interface | Processing & Performance |
-| :---: | :---: |
-| <img src="assets/upload.png" alt="Upload" width="100%"> | <img src="assets/processing.png" alt="Processing" width="100%"> |
-| **Conversion Complete** | **2D to 3D SBS Comparison** |
-| <img src="assets/completed.png" alt="Complete" width="100%"> | <img src="assets/comparison.jpg" alt="Comparison" width="100%"> |
+<div align="center">
+  <img src="assets/upload.png" alt="Upload Interface" width="45%">
+  <img src="assets/processing.png" alt="Processing & Performance" width="45%">
+  <br>
+  <img src="assets/completed.png" alt="Conversion Complete" width="45%">
+  <img src="assets/comparison.jpg" alt="2D to 3D SBS Comparison" width="45%">
+</div>
+### 1. Upload Interface
+Simply drag and drop your standard 2D video to begin the conversion process.
+![Upload Interface](assets/upload.png)
+
+### 2. Processing & Performance
+Real-time progress tracking while the AI and your CPU handle the heavy lifting.
+![Processing & Performance](assets/processing.png)
+
+### 3. Conversion Complete
+Once finished, instantly download your new stereoscopic 3D video.
+![Conversion Complete](assets/completed.png)
+
+### 4. 2D to 3D SBS Comparison
+The final output is perfectly split into distinct left and right eye views for VR headsets.
+![2D to 3D SBS Comparison](assets/comparison.jpg)
 
 
 ## Features
